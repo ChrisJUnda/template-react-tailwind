@@ -27,9 +27,9 @@ function Header(){
     <nav>
       <ul className="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
         <li>
-          <a className="md:p-4 py-3 px-0 block" href="#">
-            AboutUs
-          </a>
+          <Link className="md:p-4 py-3 px-0 block" to="/crossword">
+            Cruciverba
+          </Link>
         </li>
         <li>
           <a className="md:p-4 py-3 px-0 block" href="#">
